@@ -4,15 +4,47 @@
   "info": {
     "singularName": "question",
     "pluralName": "questions",
-    "displayName": "question"
+    "displayName": "question",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
   },
   "pluginOptions": {},
   "attributes": {
+    "media": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "word_medias": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::media.media"
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "content": {
+      "type": "json"
+    },
     "type": {
-      "type": "string"
+      "type": "enumeration",
+      "enum": [
+        "write",
+        "hear",
+        "read",
+        "speak",
+        "choice",
+        "twopair"
+      ]
     }
   }
 }
