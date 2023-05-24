@@ -29,4 +29,27 @@ module.exports = createCoreController("api::lession.lession", ({ strapi }) => ({
     entry.questions.sort((a, b) => a.id - b.id);
     return entry;
   },
+  async completed(ctx) {
+    const entry = await strapi.db.query("api::lession.lession").findOne({
+      where: { id: ctx.request.params.id },
+      populate: {
+        complete_users: true,
+      },
+    });
+
+    const update = await strapi.entityService.update(
+      "api::lession.lession",
+      entry.id,
+      {
+        data: {
+          complete_users: [
+            ...entry.complete_users.map((e) => e.id),
+            ctx.state.user.id,
+          ],
+        },
+      }
+    );
+
+    ctx.body = update;
+  },
 }));
