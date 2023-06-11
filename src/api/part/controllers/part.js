@@ -18,14 +18,14 @@ const sortAndModify = (array, userId) => {
 
 module.exports = createCoreController("api::part.part", ({ strapi }) => ({
   async find(ctx) {
-    const user = ctx.state.user;
+    const user = ctx?.state?.user;
     const data = await strapi.db.query("api::part.part").findMany({
       populate: ["lessions", "complete_users", "lessions.complete_users"],
       orderBy: ["id"],
     });
     return data.map((d) => ({
       ...d,
-      lessions: sortAndModify(d.lessions, user.id),
+      lessions: sortAndModify(d.lessions, user?.id),
     }));
   },
 }));

@@ -73,14 +73,27 @@
       "type": "string"
     },
     "avatar": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
+    },
+    "exp": {
+      "type": "integer",
+      "default": 100
+    },
+    "diamond": {
+      "type": "integer",
+      "default": 100
+    },
+    "fire": {
+      "type": "integer",
+      "default": 100
     }
   }
 }

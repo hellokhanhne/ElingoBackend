@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2023-06-02T15:32:27.624Z"
+    "x-generation-date": "2023-06-10T14:46:05.541Z"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -138,6 +138,12 @@
                   ],
                   "example": "string or id"
                 }
+              },
+              "exp": {
+                "type": "integer"
+              },
+              "diamond": {
+                "type": "integer"
               }
             }
           }
@@ -1240,6 +1246,15 @@
                                   }
                                 }
                               }
+                            },
+                            "exp": {
+                              "type": "integer"
+                            },
+                            "diamond": {
+                              "type": "integer"
+                            },
+                            "fire": {
+                              "type": "integer"
                             },
                             "createdAt": {
                               "type": "string",
@@ -2694,6 +2709,12 @@
                     }
                   }
                 }
+              },
+              "exp": {
+                "type": "integer"
+              },
+              "diamond": {
+                "type": "integer"
               },
               "createdAt": {
                 "type": "string",
@@ -3843,6 +3864,15 @@
                                 }
                               }
                             },
+                            "exp": {
+                              "type": "integer"
+                            },
+                            "diamond": {
+                              "type": "integer"
+                            },
+                            "fire": {
+                              "type": "integer"
+                            },
                             "createdAt": {
                               "type": "string",
                               "format": "date-time"
@@ -5296,6 +5326,12 @@
                     }
                   }
                 }
+              },
+              "exp": {
+                "type": "integer"
+              },
+              "diamond": {
+                "type": "integer"
               },
               "createdAt": {
                 "type": "string",
@@ -6478,6 +6514,15 @@
                                 }
                               }
                             },
+                            "exp": {
+                              "type": "integer"
+                            },
+                            "diamond": {
+                              "type": "integer"
+                            },
+                            "fire": {
+                              "type": "integer"
+                            },
                             "createdAt": {
                               "type": "string",
                               "format": "date-time"
@@ -7931,6 +7976,12 @@
                     }
                   }
                 }
+              },
+              "exp": {
+                "type": "integer"
+              },
+              "diamond": {
+                "type": "integer"
               },
               "createdAt": {
                 "type": "string",
@@ -9080,6 +9131,15 @@
                                 }
                               }
                             },
+                            "exp": {
+                              "type": "integer"
+                            },
+                            "diamond": {
+                              "type": "integer"
+                            },
+                            "fire": {
+                              "type": "integer"
+                            },
                             "createdAt": {
                               "type": "string",
                               "format": "date-time"
@@ -10533,6 +10593,12 @@
                     }
                   }
                 }
+              },
+              "exp": {
+                "type": "integer"
+              },
+              "diamond": {
+                "type": "integer"
               },
               "createdAt": {
                 "type": "string",
@@ -13639,6 +13705,15 @@
                                               }
                                             }
                                           },
+                                          "exp": {
+                                            "type": "integer"
+                                          },
+                                          "diamond": {
+                                            "type": "integer"
+                                          },
+                                          "fire": {
+                                            "type": "integer"
+                                          },
                                           "createdAt": {
                                             "type": "string",
                                             "format": "date-time"
@@ -15092,6 +15167,12 @@
                                   }
                                 }
                               }
+                            },
+                            "exp": {
+                              "type": "integer"
+                            },
+                            "diamond": {
+                              "type": "integer"
                             },
                             "createdAt": {
                               "type": "string",
@@ -16335,6 +16416,15 @@
                                               }
                                             }
                                           },
+                                          "exp": {
+                                            "type": "integer"
+                                          },
+                                          "diamond": {
+                                            "type": "integer"
+                                          },
+                                          "fire": {
+                                            "type": "integer"
+                                          },
                                           "createdAt": {
                                             "type": "string",
                                             "format": "date-time"
@@ -17788,6 +17878,12 @@
                                   }
                                 }
                               }
+                            },
+                            "exp": {
+                              "type": "integer"
+                            },
+                            "diamond": {
+                              "type": "integer"
                             },
                             "createdAt": {
                               "type": "string",
@@ -19064,6 +19160,15 @@
                                               }
                                             }
                                           },
+                                          "exp": {
+                                            "type": "integer"
+                                          },
+                                          "diamond": {
+                                            "type": "integer"
+                                          },
+                                          "fire": {
+                                            "type": "integer"
+                                          },
                                           "createdAt": {
                                             "type": "string",
                                             "format": "date-time"
@@ -20517,6 +20622,12 @@
                                   }
                                 }
                               }
+                            },
+                            "exp": {
+                              "type": "integer"
+                            },
+                            "diamond": {
+                              "type": "integer"
                             },
                             "createdAt": {
                               "type": "string",
@@ -21760,6 +21871,15 @@
                                               }
                                             }
                                           },
+                                          "exp": {
+                                            "type": "integer"
+                                          },
+                                          "diamond": {
+                                            "type": "integer"
+                                          },
+                                          "fire": {
+                                            "type": "integer"
+                                          },
                                           "createdAt": {
                                             "type": "string",
                                             "format": "date-time"
@@ -23213,6 +23333,12 @@
                                   }
                                 }
                               }
+                            },
+                            "exp": {
+                              "type": "integer"
+                            },
+                            "diamond": {
+                              "type": "integer"
                             },
                             "createdAt": {
                               "type": "string",
@@ -36189,6 +36315,15 @@
                                             }
                                           }
                                         },
+                                        "exp": {
+                                          "type": "integer"
+                                        },
+                                        "diamond": {
+                                          "type": "integer"
+                                        },
+                                        "fire": {
+                                          "type": "integer"
+                                        },
                                         "createdAt": {
                                           "type": "string",
                                           "format": "date-time"
@@ -37378,6 +37513,15 @@
                                               }
                                             }
                                           }
+                                        },
+                                        "exp": {
+                                          "type": "integer"
+                                        },
+                                        "diamond": {
+                                          "type": "integer"
+                                        },
+                                        "fire": {
+                                          "type": "integer"
                                         },
                                         "createdAt": {
                                           "type": "string",
@@ -38602,6 +38746,15 @@
                                             }
                                           }
                                         },
+                                        "exp": {
+                                          "type": "integer"
+                                        },
+                                        "diamond": {
+                                          "type": "integer"
+                                        },
+                                        "fire": {
+                                          "type": "integer"
+                                        },
                                         "createdAt": {
                                           "type": "string",
                                           "format": "date-time"
@@ -39792,6 +39945,15 @@
                                             }
                                           }
                                         },
+                                        "exp": {
+                                          "type": "integer"
+                                        },
+                                        "diamond": {
+                                          "type": "integer"
+                                        },
+                                        "fire": {
+                                          "type": "integer"
+                                        },
                                         "createdAt": {
                                           "type": "string",
                                           "format": "date-time"
@@ -40753,6 +40915,15 @@
                                                             }
                                                           }
                                                         }
+                                                      },
+                                                      "exp": {
+                                                        "type": "integer"
+                                                      },
+                                                      "diamond": {
+                                                        "type": "integer"
+                                                      },
+                                                      "fire": {
+                                                        "type": "integer"
                                                       },
                                                       "createdAt": {
                                                         "type": "string",
@@ -41972,6 +42143,15 @@
                                                             }
                                                           }
                                                         }
+                                                      },
+                                                      "exp": {
+                                                        "type": "integer"
+                                                      },
+                                                      "diamond": {
+                                                        "type": "integer"
+                                                      },
+                                                      "fire": {
+                                                        "type": "integer"
                                                       },
                                                       "createdAt": {
                                                         "type": "string",
@@ -43225,6 +43405,15 @@
                                                           }
                                                         }
                                                       },
+                                                      "exp": {
+                                                        "type": "integer"
+                                                      },
+                                                      "diamond": {
+                                                        "type": "integer"
+                                                      },
+                                                      "fire": {
+                                                        "type": "integer"
+                                                      },
                                                       "createdAt": {
                                                         "type": "string",
                                                         "format": "date-time"
@@ -44444,6 +44633,15 @@
                                                           }
                                                         }
                                                       },
+                                                      "exp": {
+                                                        "type": "integer"
+                                                      },
+                                                      "diamond": {
+                                                        "type": "integer"
+                                                      },
+                                                      "fire": {
+                                                        "type": "integer"
+                                                      },
                                                       "createdAt": {
                                                         "type": "string",
                                                         "format": "date-time"
@@ -44984,6 +45182,15 @@
                   }
                 ],
                 "example": "string or id"
+              },
+              "exp": {
+                "type": "integer"
+              },
+              "diamond": {
+                "type": "integer"
+              },
+              "fire": {
+                "type": "integer"
               }
             }
           }
@@ -46055,6 +46262,15 @@
                                             }
                                           }
                                         },
+                                        "exp": {
+                                          "type": "integer"
+                                        },
+                                        "diamond": {
+                                          "type": "integer"
+                                        },
+                                        "fire": {
+                                          "type": "integer"
+                                        },
                                         "createdAt": {
                                           "type": "string",
                                           "format": "date-time"
@@ -46778,6 +46994,15 @@
                     }
                   }
                 }
+              },
+              "exp": {
+                "type": "integer"
+              },
+              "diamond": {
+                "type": "integer"
+              },
+              "fire": {
+                "type": "integer"
               },
               "createdAt": {
                 "type": "string",
@@ -47891,6 +48116,15 @@
                                             }
                                           }
                                         },
+                                        "exp": {
+                                          "type": "integer"
+                                        },
+                                        "diamond": {
+                                          "type": "integer"
+                                        },
+                                        "fire": {
+                                          "type": "integer"
+                                        },
                                         "createdAt": {
                                           "type": "string",
                                           "format": "date-time"
@@ -48614,6 +48848,15 @@
                     }
                   }
                 }
+              },
+              "exp": {
+                "type": "integer"
+              },
+              "diamond": {
+                "type": "integer"
+              },
+              "fire": {
+                "type": "integer"
               },
               "createdAt": {
                 "type": "string",
@@ -49760,6 +50003,15 @@
                                             }
                                           }
                                         },
+                                        "exp": {
+                                          "type": "integer"
+                                        },
+                                        "diamond": {
+                                          "type": "integer"
+                                        },
+                                        "fire": {
+                                          "type": "integer"
+                                        },
                                         "createdAt": {
                                           "type": "string",
                                           "format": "date-time"
@@ -50483,6 +50735,15 @@
                     }
                   }
                 }
+              },
+              "exp": {
+                "type": "integer"
+              },
+              "diamond": {
+                "type": "integer"
+              },
+              "fire": {
+                "type": "integer"
               },
               "createdAt": {
                 "type": "string",
@@ -51596,6 +51857,15 @@
                                             }
                                           }
                                         },
+                                        "exp": {
+                                          "type": "integer"
+                                        },
+                                        "diamond": {
+                                          "type": "integer"
+                                        },
+                                        "fire": {
+                                          "type": "integer"
+                                        },
                                         "createdAt": {
                                           "type": "string",
                                           "format": "date-time"
@@ -52319,6 +52589,15 @@
                     }
                   }
                 }
+              },
+              "exp": {
+                "type": "integer"
+              },
+              "diamond": {
+                "type": "integer"
+              },
+              "fire": {
+                "type": "integer"
               },
               "createdAt": {
                 "type": "string",

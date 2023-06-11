@@ -35,6 +35,14 @@
       "type": "relation",
       "relation": "oneToMany",
       "target": "api::question.question"
+    },
+    "exp": {
+      "type": "integer",
+      "default": 10
+    },
+    "diamond": {
+      "type": "integer",
+      "default": 10
     }
   }
 }
