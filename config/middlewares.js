@@ -38,7 +38,6 @@ module.exports = [
         "http://localhost:8081",
         "http://localhost",
         "http://localhost:3000",
-
         "*",
       ],
     },
