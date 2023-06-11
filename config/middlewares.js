@@ -38,6 +38,7 @@ module.exports = [
         "http://localhost:8081",
         "http://localhost",
         "http://localhost:3000",
+        "https://api-1b6w.onrender.com",
         "*",
       ],
     },
